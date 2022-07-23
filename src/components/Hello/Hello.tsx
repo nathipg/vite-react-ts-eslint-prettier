@@ -1,18 +1,8 @@
-import logo from '~/logo.svg';
+import styles from './Hello.module.scss';
 
 const Hello = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'center',
-        textAlign: 'center',
-        paddingTop: '50px',
-      }}
-    >
-      <img src={logo} alt='Logo' style={{ height: '150px' }} />
+    <div className={styles.Hello}>
       <ul
         style={{
           padding: 0,
@@ -28,6 +18,7 @@ const Hello = () => {
         <li>📖 TypeScript</li>
         <li>🔨 Eslint</li>
         <li>💅 Prettier</li>
+        <li>🧪 RTL & Jest</li>
       </ul>
       <p>Don&apos;t forgot to install Eslint and Prettier in your VSCode</p>
       <div>

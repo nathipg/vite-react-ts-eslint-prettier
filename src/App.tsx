@@ -1,7 +1,7 @@
-import Hello from '~/components/Hello';
+import { Hello } from './components/Hello';
 
-function App() {
+const App = () => {
   return <Hello />;
-}
+};
 
 export default App;
